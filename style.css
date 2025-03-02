@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    
+    font-family: 'poppins',sans-serif;
+    background-color: black;
+    text-align: ;
+}
+.h1{
+    
+    
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif ;
+    padding: 20px 40px;
+    display: inline-block;
+    color: hwb(0 5% 95% / 0.929);
+    text-shadow:  2px 2px 4px hwb(13 7% 20%);
+    border-radius: 10px;
+    
+}
+
+div h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif ;
+    padding: 20px 40px;
+    display: inline-block;
+    color: black;
+    text-shadow: 2px 2px 4px rgb(210, 46, 5);
+    border-radius: 10px;
+    
+}
+    
+.nani{
+    
+    font-family: 'poppins',sans-serif;
+    
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.nn{
+    font-size: x-large;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.n1.n2.n3.n4.n5.n6{
+    margin: 20px;
+    width: 20px;
+    color: white;
+    flex-basis: 10%;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgb(210, 46, 5);
+    box-shadow: rgb(210, 46, 5);
+    
+    
+
+    
+}
+.n1.n2.n3.n4.n5.n6{
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+.container:hover > :not(:hover){
+    opacity: 0.1;
+}
+.n1.n2.n3.n4.n5.n6:hover{
+    transform: translate(-10px, -20px);
+}
+.b{
+    outline-offset: 2px;
+    outline: 2px solid #fff;
+    
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 50px;
+     background-color: rgb(210, 46, 5);
+     color: black;
+     border-radius: 20px;
+
+    
+}
+.i{
+    text-shadow: 20px rgb(210, 46, 5);
+    place-items: center;
+    width: 600px;
+    margin: 100x;
+    border-radius: 20px;
+
+}
+.bt{
+    display: flex;
+    justify-content: center;
+}
