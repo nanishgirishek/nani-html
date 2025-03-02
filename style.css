@@ -62,7 +62,7 @@ div h1{
     align-items: center;
 
 }
-.n1.n2.n3.n4.n5.n6{
+.n1.n2.n3.n4.n5.n6.n7.n8.n9{
     margin: 20px;
     width: 20px;
     color: white;
@@ -75,14 +75,14 @@ div h1{
 
     
 }
-.n1.n2.n3.n4.n5.n6{
+.n1.n2.n3.n4.n5.n6.n7.n8.n9{
     transition: 0.5 ease;
     cursor: pointer;
 }
 .container:hover > :not(:hover){
     opacity: 0.1;
 }
-.n1.n2.n3.n4.n5.n6:hover{
+.n1.n2.n3.n4.n5.n6.n7.n8.n9:hover{
     transform: translate(-10px, -20px);
 }
 .b{
